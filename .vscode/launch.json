@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Django",
+        "type": "debugpy",
+        "request": "attach",
+        "program": "${workspaceFolder}/backend/manage.py",
+        "args": [
+          "runserver"
+        ],
+        "django": true,
+        "justMyCode": true,
+        "runtimeExecutable": "/Applications/Arc.app/Contents/MacOS/Arc"
+      }
+    ]
+}
+  
